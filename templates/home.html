@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {%include 'bootstrap.html' %}
+    <style>
+  #anupam {
+  height: 440px;
+  width: 480px;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  display: block;
+}
+    #german {
+      text-align : center;
+    }
+
+  
+</style>
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <div>
+      <h2 style="text-align : center">
+      My Portfolio
+    </h2>
+    </div>
+    <div>
+      <img src="/static/Me.jpg" alt="Anupam" class="center", id="anupam">
+    </div>
+    <p id="german">
+      <h4>
+        About me
+      </h4>
+     <p style= "text-align:left;">
+       Hi, This is Anupam Upadhyaya, a B.Tech CSE graduate from SMU, batch of 2022.
+     </p>
+    
+    {% include 'footer.html' %}
+  </body>
+</html>
